@@ -9,7 +9,6 @@ export const ContainerHeader = styled.div`
 `;
 
 export const SectionBackground = styled.div`
-  border: 1px solid #000;
   background-image: url("https://images.unsplash.com/photo-1619468129361-605ebea04b44?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1471&q=80");
   background-position: 55% 35%;
   background-repeat: no-repeat;

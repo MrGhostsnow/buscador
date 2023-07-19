@@ -1,9 +1,8 @@
 import styled from "styled-components";
 
 export const ContainerFooter = styled.div`
-  border: 1px solid red;
   width: 80%;
-  min-height: 80px;
+  min-height: 200px;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
