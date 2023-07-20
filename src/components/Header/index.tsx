@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import NavBar from "../NavBar";
 import {
   ContainerHeader,
@@ -18,7 +19,9 @@ const Header = () => (
         architecto iusto nihil tempore fugit magnam corrupti dolorem. Incidunt,
         eaque neque esse a quia modi et voluptatem consequatur dolorem dicta.
       </TextAboutBranding>
-      <ButtonServices>Serviços</ButtonServices>
+      <Link href="/ourservices">
+        <ButtonServices>Serviços</ButtonServices>
+      </Link>
     </SectionTextAndButton>
   </ContainerHeader>
 );
