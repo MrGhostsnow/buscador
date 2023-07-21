@@ -1,7 +1,8 @@
+"use client";
 import styled from "styled-components";
 
 export const ContainerFooter = styled.div`
-  width: 80%;
+  width: 83%;
   min-height: 200px;
   padding: 2rem;
   display: flex;

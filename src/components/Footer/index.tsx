@@ -12,9 +12,6 @@ const Footer = () => (
     <TitleFooter>Buscador</TitleFooter>
     <SectionLinkServices>
       <TitleLinksSection>Serviços</TitleLinksSection>
-      <LinkServices>Um</LinkServices>
-      <LinkServices>Dois</LinkServices>
-      <LinkServices>Três</LinkServices>
     </SectionLinkServices>
   </ContainerFooter>
 );

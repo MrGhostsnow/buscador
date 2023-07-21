@@ -4,7 +4,9 @@ import { ContainerNavBar, TitleSite, Services } from "./styles";
 
 const NavBar = () => (
   <ContainerNavBar>
-    <TitleSite>Buscador</TitleSite>
+    <Link href="/">
+      <TitleSite>Buscador</TitleSite>
+    </Link>
     <Link href="/ourservices">
       <Services>Serviços</Services>
     </Link>
