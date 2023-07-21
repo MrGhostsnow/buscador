@@ -42,29 +42,36 @@ export default function CnpjServices() {
   return (
     <>
       <SectionInput>
-        <Input type="text" value={cnpj} onChange={handleChange} />
+        <Input
+          type="text"
+          value={cnpj}
+          onChange={handleChange}
+          placeholder="Digite o Cnpj"
+        />
         <Button type="submit" onClick={findCnpjInfos}>
           Pesquisar
         </Button>
       </SectionInput>
-      <ContainerInfosCnpj>
-        <StateInfo>
-          <Title>Razão social:</Title>
-          <Info>{infosCnpj?.razao_social}</Info>
-        </StateInfo>
-        <CityInfo>
-          <Title>Nome fantasia:</Title>
-          <Info>{infosCnpj?.nome_fantasia}</Info>
-        </CityInfo>
-        <NeighborhoodInfo>
-          <Title>Situação cadastral:</Title>
-          <Info>{infosCnpj?.descricao_situacao_cadastral}</Info>
-        </NeighborhoodInfo>
-        <StreetInfo>
-          <Title>Inicio de atividade</Title>
-          <Info>{infosCnpj?.data_inicio_atividade}</Info>
-        </StreetInfo>
-      </ContainerInfosCnpj>
+      {infosCnpj ? (
+        <ContainerInfosCnpj>
+          <StateInfo>
+            <Title>Razão social:</Title>
+            <Info>{infosCnpj?.razao_social}</Info>
+          </StateInfo>
+          <CityInfo>
+            <Title>Nome fantasia:</Title>
+            <Info>{infosCnpj?.nome_fantasia}</Info>
+          </CityInfo>
+          <NeighborhoodInfo>
+            <Title>Situação cadastral:</Title>
+            <Info>{infosCnpj?.descricao_situacao_cadastral}</Info>
+          </NeighborhoodInfo>
+          <StreetInfo>
+            <Title>Inicio de atividade</Title>
+            <Info>{infosCnpj?.data_inicio_atividade}</Info>
+          </StreetInfo>
+        </ContainerInfosCnpj>
+      ) : null}
     </>
   );
 }

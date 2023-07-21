@@ -42,29 +42,36 @@ export default function CepServices() {
   return (
     <>
       <SectionInput>
-        <Input type="text" value={cep} onChange={handleChange} />
+        <Input
+          type="text"
+          value={cep}
+          onChange={handleChange}
+          placeholder="Digite o Cep"
+        />
         <Button type="submit" onClick={findCepInfos}>
           Pesquisar
         </Button>
       </SectionInput>
-      <ContainerInfosCep>
-        <StateInfo>
-          <Title>Estado:</Title>
-          <Info>{infosCep?.state}</Info>
-        </StateInfo>
-        <CityInfo>
-          <Title>Cidade:</Title>
-          <Info>{infosCep?.city}</Info>
-        </CityInfo>
-        <NeighborhoodInfo>
-          <Title>Bairro:</Title>
-          <Info>{infosCep?.neighborhood}</Info>
-        </NeighborhoodInfo>
-        <StreetInfo>
-          <Title>Rua:</Title>
-          <Info>{infosCep?.street}</Info>
-        </StreetInfo>
-      </ContainerInfosCep>
+      {infosCep ? (
+        <ContainerInfosCep>
+          <StateInfo>
+            <Title>Estado:</Title>
+            <Info>{infosCep?.state}</Info>
+          </StateInfo>
+          <CityInfo>
+            <Title>Cidade:</Title>
+            <Info>{infosCep?.city}</Info>
+          </CityInfo>
+          <NeighborhoodInfo>
+            <Title>Bairro:</Title>
+            <Info>{infosCep?.neighborhood}</Info>
+          </NeighborhoodInfo>
+          <StreetInfo>
+            <Title>Rua:</Title>
+            <Info>{infosCep?.street}</Info>
+          </StreetInfo>
+        </ContainerInfosCep>
+      ) : null}
     </>
   );
 }

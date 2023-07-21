@@ -4,11 +4,12 @@ export const ContainerServices = styled.div`
   border: 1px solid #000;
   border-radius: 8px;
   width: 80%;
-  height: 500px;
+  min-height: 500px;
   margin-top: 6rem;
   display: flex;
   flex-direction: column;
   align-items: center;
+  padding-bottom: 2rem;
 `;
 
 export const ListOfServices = styled.ul`
@@ -22,4 +23,7 @@ export const ListOfServices = styled.ul`
 
 export const Service = styled.li`
   list-style: none;
+  width: 200px;
+  display: flex;
+  justify-content: center;
 `;
