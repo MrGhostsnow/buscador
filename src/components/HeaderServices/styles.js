@@ -31,6 +31,9 @@ export const SectionText = styled.div`
   text-align: center;
   font-weight: bold;
   font-size: 32px;
+  @media screen and (max-width: 572px) {
+    width: 200px;
+  }
 `;
 
 export const TitlePage = styled.p`

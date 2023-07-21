@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import {
   ContainerFooter,
   TitleFooter,
@@ -9,9 +10,13 @@ import {
 
 const Footer = () => (
   <ContainerFooter>
-    <TitleFooter>Buscador</TitleFooter>
+    <Link href="/">
+      <TitleFooter>Buscador</TitleFooter>
+    </Link>
     <SectionLinkServices>
-      <TitleLinksSection>Serviços</TitleLinksSection>
+      <Link href="/ourservices">
+        <TitleLinksSection>Serviços</TitleLinksSection>
+      </Link>
     </SectionLinkServices>
   </ContainerFooter>
 );

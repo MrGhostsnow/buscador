@@ -20,6 +20,10 @@ export const ListOfServices = styled.ul`
   display: flex;
   justify-content: space-around;
   margin-top: 2rem;
+  @media screen and (max-width: 572px) {
+    width: 90%;
+    gap: 1rem;
+  }
 `;
 
 export const Service = styled.li`

@@ -2,12 +2,14 @@
 import styled from "styled-components";
 
 export const ContainerFooter = styled.div`
-  width: 83%;
+  width: 100%;
   min-height: 200px;
   padding: 2rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+  margin-top: 3rem;
 `;
 
 export const TitleFooter = styled.h1`

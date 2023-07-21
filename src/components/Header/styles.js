@@ -31,6 +31,10 @@ export const SectionTextAndButton = styled.div`
   text-align: center;
   font-weight: bold;
   font-size: 24px;
+  @media screen and (max-width: 572px) {
+    width: 380px;
+    gap: 1rem;
+  }
 `;
 
 export const TextAboutBranding = styled.p`
