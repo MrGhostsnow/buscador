@@ -13,29 +13,21 @@ const OurServices = () => (
     <TitleOurServices>Nossos serviços</TitleOurServices>
     <ContainerTextServices>
       <SectionServices>
-        <TitleSection>Lorem</TitleSection>
+        <TitleSection>CEP</TitleSection>
         <TextSection>
-          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dignissimos,
-          reprehenderit esse saepe fugit quibusdam beatae doloribus pariatur
-          asperiores cupiditate similique nobis iure animi dicta architecto
-          maxime itaque. Pariatur, aut ullam?
+          Busque informações sobre o endereço com o CEP.
         </TextSection>
       </SectionServices>
       <SectionServices>
-        <TitleSection>Lorem</TitleSection>
+        <TitleSection>CNPJ</TitleSection>
         <TextSection>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur
-          itaque harum sit quidem iste dolor nulla provident similique quibusdam
-          pariatur amet, sapiente, laborum quia reprehenderit aperiam quos
-          delectus aliquid cumque!
+          Confira as informações de uma empresa com o CNPJ.
         </TextSection>
       </SectionServices>
       <SectionServices>
-        <TitleSection>Lorem</TitleSection>
+        <TitleSection>Corretoras</TitleSection>
         <TextSection>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Cum dolores
-          officia, molestias aliquam temporibus ab vero totam at ullam expedita
-          iste optio delectus nisi molestiae in, rem ut dignissimos earum.
+          Encontre as informações da corrretora com o CNPJ.
         </TextSection>
       </SectionServices>
     </ContainerTextServices>

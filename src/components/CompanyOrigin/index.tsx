@@ -9,9 +9,12 @@ const CompanyOrigin = () => (
   <ContainerCompanyOrigin>
     <BackgroundImage />
     <TextContainer>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum cumque
-      iure numquam nam corrupti exercitationem quia ipsam! Ipsa, amet ipsum
-      laudantium illum, veritatis qui officia ab nam adipisci earum fugiat.
+      O Buscador teve sua origem em 2010, fundada por um grupo de entusiastas da
+      tecnologia com o objetivo de simplificar o acesso a informações
+      essenciais. Com foco inicial em CEPs, CNPJs e corretoras, a empresa
+      cresceu rapidamente devido à sua eficiência e precisão nas buscas. Hoje, é
+      uma referência no mercado, oferecendo soluções confiáveis e práticas para
+      milhões de usuários em todo o país.
     </TextContainer>
   </ContainerCompanyOrigin>
 );

@@ -34,6 +34,7 @@ export const SectionTextAndButton = styled.div`
   @media screen and (max-width: 572px) {
     width: 380px;
     gap: 1rem;
+    top: 7rem;
   }
 `;
 

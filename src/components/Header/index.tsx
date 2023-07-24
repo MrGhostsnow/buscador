@@ -15,9 +15,11 @@ const Header = () => (
     <SectionBackground />
     <SectionTextAndButton>
       <TextAboutBranding>
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Esse aliquam
-        architecto iusto nihil tempore fugit magnam corrupti dolorem. Incidunt,
-        eaque neque esse a quia modi et voluptatem consequatur dolorem dicta.
+        Conheça agora o Buscador, o site completo para busca de informações
+        essenciais! Encontre endereços através de CEPs , consulte CNPJs para
+        validar empresas e localize corretoras com agilidade. Tudo isso através
+        de seus códigos, de forma rápida e confiável. Simplifique suas pesquisas
+        com o Buscador!
       </TextAboutBranding>
       <Link href="/ourservices">
         <ButtonServices>Serviços</ButtonServices>
