@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import NavBar from "../NavBar";
 import {
   ContainerHeader,
@@ -11,7 +12,7 @@ import {
 const HeaderServices = () => (
   <ContainerHeader>
     <NavBar />
-    <SectionBackground />
+    <SectionBackground data-testid="section-background" />
     <SectionText>
       <TitlePage>Serviços</TitlePage>
     </SectionText>

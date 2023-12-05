@@ -1,5 +1,5 @@
 "use client";
-import { useState } from "react";
+import React, { useState } from "react";
 import {
   SectionInput,
   Input,
@@ -23,6 +23,7 @@ interface InfosCnpjType {
 export default function CnpjServices() {
   const [cnpj, setCnpj] = useState("");
   const [infosCnpj, setInfosCnpj] = useState<InfosCnpjType>();
+  const ApiKey = "2915e8300d57a6f21a0ce2633e4f7011";
 
   const handleChange = (e: any) => {
     setCnpj(e.target.value);
@@ -31,7 +32,7 @@ export default function CnpjServices() {
   async function findCnpjInfos() {
     if (cnpj !== "") {
       const response = await fetch(
-        `https://brasilapi.com.br/api/cnpj/v1/${cnpj}`
+        `https://api.openweathermap.org/data/2.5/weather?q=Curitiba&appid=${ApiKey}`
       );
       const infoCnpj = await response.json();
       setInfosCnpj(infoCnpj);

@@ -1,4 +1,5 @@
 "use client";
+import React from "react";
 import Link from "next/link";
 import NavBar from "../NavBar";
 import {
@@ -12,7 +13,7 @@ import {
 const Header = () => (
   <ContainerHeader>
     <NavBar />
-    <SectionBackground />
+    <SectionBackground data-testid="section-background" />
     <SectionTextAndButton>
       <TextAboutBranding>
         Conheça agora o Buscador, o site completo para busca de informações
